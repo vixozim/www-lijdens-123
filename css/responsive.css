@@ -54,6 +54,7 @@
 
 /* sm */
 
+
 @media (min-width: 768px) and (max-width: 991px) {
  .header .static-header figure figcaption {
  margin-top:10%
@@ -61,6 +62,11 @@
  .header nav ul > li {
  padding-left:15px
 }
+
+.slide {
+    padding-top: 200px !important;
+}
+
  .service_details p {
  text-align:center
 }
@@ -208,6 +214,10 @@ display:block
  .header nav ul > li ul li a, .header .navbar.stuck nav ul li ul li a {
  line-height:40px;
  padding-bottom:0
+}
+
+.slide {
+    padding-top: 200px !important;
 }
  .static-header .angle-down {
  display:none
