@@ -504,7 +504,7 @@ h6 {
 
 
 .titulo_slider{
-	font-family: 'Source Sans Pro' !important;
+	font-family: 'Source Sans Pro', sans-serif !important;
 	text-transform: capitalize;
 }
 
