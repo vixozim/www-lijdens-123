@@ -501,6 +501,13 @@ h6 {
 	-o-background-size: cover;
 	background-size: cover;
   }
+
+
+.titulo_slider{
+	font-family: 'Source Sans Pro' !important;
+	text-transform: capitalize;
+}
+
 /* ===========================
 
 
