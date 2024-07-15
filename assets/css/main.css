@@ -1,8 +1,10 @@
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 html, body {
   width: 100%;
@@ -485,6 +487,12 @@ div[class^='bg-dark'] hr, div[class*=' bg-dark'] hr, .bg-black hr {
 
 /* Floating Social Media Bar Style Ends Here */
 
+.redes {
+  font-size: smaller;
+}
+
+
+
 input,
 textarea {
   background: transparent;
@@ -493,7 +501,7 @@ textarea {
   margin-bottom: 1rem;
   padding: 15px 20px;
   box-shadow: none;
-  font: 400 14px "Tajawal", sans-serif;
+  font: 400 14px "Urbanist", sans-serif;
   -webkit-transition: ease-out 0.2s;
   transition: ease-out 0.2s;
 }
@@ -939,7 +947,7 @@ ul.list-inline-dash li:last-child:after, ul.list-inline-slash li:last-child:afte
 
 body {
   color: #767A7D;
-  font-family: "Tajawal", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-weight: 400;
   letter-spacing: 0;
 }
@@ -948,7 +956,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
   letter-spacing: -0.3px;
   color: #141618;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 600;
 }
 
@@ -1548,7 +1556,7 @@ a:focus, a:active, button:focus, button:active {
   border: 0;
   padding: 5px 10px;
   color: #141618;
-  font: 400 14px "Montserrat", sans-serif;
+  font: 400 14px "Raleway", sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
   -webkit-transition: ease-out 0.14s;
@@ -2059,7 +2067,7 @@ a[class*=' button-fancy-3'].button-xl:hover:before, a[class^='button-fancy-3'].b
   position: relative;
   display: inline-block;
   color: #141618;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .button-text-1:before {
@@ -2806,7 +2814,7 @@ div[class^='bg-dark'] a[class^='button-ct']:hover .button-ct-text, div[class*=' 
 }
 
 .font-family-primary .button, .font-family-primary.button {
-  font-family: "Tajawal", sans-serif;
+  font-family: "Urbanist", sans-serif;
 }
 
 .button-border-2, a.button-border-2 {
@@ -5154,7 +5162,7 @@ div[class^='bg-dark'] .blog-category-list li a span, div[class*=' bg-dark'] .blo
 
 .comment-box .comment-reply a {
   display: inline-block;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -5379,7 +5387,7 @@ div[class^='bg-dark'] .blog-category-list li a span, div[class*=' bg-dark'] .blo
   transform: translateY(8px);
   opacity: 0;
   margin: 8px 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 2em;
   /* 32px */
@@ -5633,11 +5641,11 @@ div[class^='bg-white'].fm-wrapper .fm-close span:before, div[class^='bg-white'].
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .header-menu-wrapper .header-menu .m-item .m-link {
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Raleway", sans-serif !important;
   letter-spacing: -0.2px;
 }
 
@@ -6531,7 +6539,7 @@ div[class^='bg-white'].fm-wrapper .fm-close span:before, div[class^='bg-white'].
   list-style-type: none;
   margin: 0 -14px -7px;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .portfolio-filter ul li {
@@ -7003,7 +7011,7 @@ div[class^='bg-dark'] .portfolio-filter.style-2 ul li:before, div[class*=' bg-da
   display: block;
   overflow: hidden;
   color: #141618;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 3.5em;
 }
@@ -7750,7 +7758,7 @@ body.loaded:after {
 .product-info-box .nav .nav-item .nav-link {
   position: relative;
   padding: 0 0 1px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .product-info-box .nav .nav-item .nav-link:before {
@@ -7912,7 +7920,7 @@ body.loaded:after {
 }
 
 .sm-wrapper .sm .sm-item .sm-link {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .sm-wrapper .sm .sm-item .sm-link.sm-dropdown-toggle {
@@ -8425,7 +8433,7 @@ body.loaded:after {
 }
 
 .stm-wrapper .stm .stm-item .stm-link {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .stm-wrapper .stm .stm-item .stm-link.stm-dropdown-toggle {
@@ -9785,11 +9793,11 @@ div[class^='bg-dark'] .border, div[class^='bg-dark'] .border-top, div[class^='bg
 }
 
 .font-family-primary {
-  font-family: "Tajawal", sans-serif;
+  font-family: "Urbanist", sans-serif;
 }
 
 .font-family-secondary {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .font-weight-thin {
