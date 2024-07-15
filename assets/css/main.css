@@ -374,6 +374,7 @@ div[class^='bg-dark'] hr, div[class*=' bg-dark'] hr, .bg-black hr {
   opacity: 0;
   -webkit-transition: ease-out 0.12s;
   transition: ease-out 0.12s;
+  display: none;
 }
 
 .scrolltotop.scrolltotop-show {
@@ -1516,7 +1517,7 @@ div[class^='bg-dark'] .accordion.style-3 li.active .accordion-title h1, div[clas
 }
 
 a {
-  color: #767A7D;
+  color: #2B2D2F;
   -webkit-transition: linear 0.1s;
   transition: linear 0.1s;
 }
@@ -4032,7 +4033,7 @@ div[class^='bg-dark'] .progress-box .progress .progress-bar, div[class*=' bg-dar
 
 .owl-carousel .owl-dots .owl-dot {
   position: relative;
-  display: inline-block;
+  display: none;
   width: 24px;
   height: 24px;
   margin: 0 2px;
@@ -4161,17 +4162,17 @@ div[class^='bg-dark'] .owl-carousel .owl-dots .owl-dot:hover:after, div[class^='
 
 .owl-carousel.owl-nav-overlay .owl-nav button.owl-next, .owl-carousel.owl-nav-overlay .owl-nav button.owl-prev, .owl-carousel.owl-nav-overlay-left .owl-nav button.owl-next, .owl-carousel.owl-nav-overlay-left .owl-nav button.owl-prev, .owl-carousel.owl-nav-overlay-right .owl-nav button.owl-next, .owl-carousel.owl-nav-overlay-right .owl-nav button.owl-prev {
   opacity: 0.9;
-  background: rgba(20, 22, 24, 0.7);
+  /* background: rgba(20, 22, 24, 0.7); */
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  color: rgba(255, 255, 255, 0.8);
+  color: #333333;
   text-align: center;
 }
 
 .owl-carousel.owl-nav-overlay .owl-nav button.owl-next i, .owl-carousel.owl-nav-overlay .owl-nav button.owl-prev i, .owl-carousel.owl-nav-overlay-left .owl-nav button.owl-next i, .owl-carousel.owl-nav-overlay-left .owl-nav button.owl-prev i, .owl-carousel.owl-nav-overlay-right .owl-nav button.owl-next i, .owl-carousel.owl-nav-overlay-right .owl-nav button.owl-prev i {
   line-height: 50px;
-  font-size: 14px;
+  font-size: 24px;
 }
 
 .owl-carousel.owl-nav-overlay .owl-nav button.owl-next:hover, .owl-carousel.owl-nav-overlay .owl-nav button.owl-next:focus, .owl-carousel.owl-nav-overlay .owl-nav button.owl-prev:hover, .owl-carousel.owl-nav-overlay .owl-nav button.owl-prev:focus, .owl-carousel.owl-nav-overlay-left .owl-nav button.owl-next:hover, .owl-carousel.owl-nav-overlay-left .owl-nav button.owl-next:focus, .owl-carousel.owl-nav-overlay-left .owl-nav button.owl-prev:hover, .owl-carousel.owl-nav-overlay-left .owl-nav button.owl-prev:focus, .owl-carousel.owl-nav-overlay-right .owl-nav button.owl-next:hover, .owl-carousel.owl-nav-overlay-right .owl-nav button.owl-next:focus, .owl-carousel.owl-nav-overlay-right .owl-nav button.owl-prev:hover, .owl-carousel.owl-nav-overlay-right .owl-nav button.owl-prev:focus {
@@ -4280,6 +4281,7 @@ div[class^='bg-dark'] .owl-carousel .owl-dots .owl-dot:hover:after, div[class^='
   border-radius: 20px;
   margin: 0;
   padding: 5px;
+  display: none;
 }
 
 .owl-carousel.owl-dots-overlay .owl-dots .owl-dot, .owl-carousel.owl-dots-overlay-left .owl-dots .owl-dot, .owl-carousel.owl-dots-overlay-right .owl-dots .owl-dot {
