@@ -1654,6 +1654,7 @@ a:focus, a:active, button:focus, button:active {
 .button-dark, a.button-dark {
   background: rgba(20, 22, 24, 0.9);
   color: rgba(255, 255, 255, 0.9);
+  border-radius: 3px;
 }
 
 .button-dark:hover, .button-dark:focus, a.button-dark:hover, a.button-dark:focus {
@@ -1796,6 +1797,7 @@ a[class*=' button-fancy-1']:hover:after, a[class^='button-fancy-1']:hover:after,
 
 .button-fancy-1-outline-gray:before, a.button-fancy-1-outline-gray:before {
   border: 1px solid rgba(20, 22, 24, 0.2);
+  border-radius: 3px;
 }
 
 .button-fancy-1-outline-white, a.button-fancy-1-outline-white {
@@ -3274,14 +3276,14 @@ div[class^="fancy-box"] img {
 @media (max-width: 1199.98px) {
   .fancy-box-3 .content,
   .fancy-box-3 .hover-content {
-    padding: 30px;
+    padding: 10px;
   }
 }
 
 @media (max-width: 991.98px) {
   .fancy-box-3 .content,
   .fancy-box-3 .hover-content {
-    padding: 20px;
+    padding: 10px;
   }
 }
 
@@ -5660,7 +5662,7 @@ div[class^='bg-white'].fm-wrapper .fm-close span:before, div[class^='bg-white'].
 
 .header-menu-wrapper .header-menu .m-item .m-link.m-dropdown-toggle {
   position: relative;
-  padding-right: 13px;
+
 }
 
 .header-menu-wrapper .header-menu .m-item .m-link.m-dropdown-toggle:before, .header-menu-wrapper .header-menu .m-item .m-link.m-dropdown-toggle:after {
@@ -5917,6 +5919,7 @@ div[class^='bg-white'].fm-wrapper .fm-close span:before, div[class^='bg-white'].
     display: inline-block;
     height: 100%;
     margin: 0 0 0 20px;
+    
   }
 
 
@@ -5926,7 +5929,9 @@ div[class^='bg-white'].fm-wrapper .fm-close span:before, div[class^='bg-white'].
   }
   .header-menu-wrapper .header-menu .m-item:first-child {
     margin-left: 0;
+    
   }
+  
   .header-menu-wrapper .header-menu .m-item .m-link {
     display: inline-block;
     line-height: 80px;
