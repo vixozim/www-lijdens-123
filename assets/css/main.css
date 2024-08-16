@@ -3253,7 +3253,7 @@ div[class^="fancy-box"] img {
 
 .fancy-box-3:before {
   opacity: 1;
-  background-image: linear-gradient(to top, rgba(20, 22, 24, 0.5), transparent);
+  background-image: linear-gradient(to top, rgba(20, 22, 24, 0.7), transparent);
 }
 
 .fancy-box-3:after {
