@@ -53,7 +53,7 @@ body {
 }
 
 .row div[class^="col-"]:not(.row) {
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 .row .form-row div[class^="col-"]:not(.row) {
