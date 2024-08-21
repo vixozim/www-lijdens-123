@@ -1,9 +1,6 @@
 /*===============================================
 *
-* Template name : Arty
-* Version       : 2.2.7
-* Author        : FlaTheme
-* Author URL    : http://themeforest.net/user/flatheme
+* 
 *
 * Table of Contents : 
 * 1.  Page Preloaders
